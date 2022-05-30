@@ -1,0 +1,10 @@
+/* styles.css */
+
+h1, h3 {
+    color: white;
+    background-color: black;
+  }
+  
+  li {
+    color: rgb(38, 9, 54);
+  }
