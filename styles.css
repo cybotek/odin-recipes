@@ -5,6 +5,10 @@ h1, h3 {
     background-color: black;
   }
   
-  li {
+  p {
     color: rgb(38, 9, 54);
   }
+  ol,
+  ul {color:black;
+  background-color: antiquewhite;
+}
