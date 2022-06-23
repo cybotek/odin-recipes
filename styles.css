@@ -5,6 +5,19 @@ h1, h3 {
     font-weight: bolder;
     background-color:darkcyan;
   }
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .items-2 {
+    display: flex;
+    flex-direction: column;
+  }
   .list {
     font-family: 'Courier New', Courier, monospace;
     font-size: 24px;
@@ -16,11 +29,28 @@ h1, h3 {
     font-size: 24px;
     font-style: italic;
     color: brown;
+  } 
+  .aligncenter {
+    text-align: center;
+    background-blend-mode: color-burn;
+    padding: auto;
+    margin: 10px;
+  }
+    ol {
+    border: 2px solid green;
+    text-align:left;
+    padding: auto;
+    margin-bottom: 10px;
+    list-style: circle;
+    
+
   }
   h2 {
     font-style: italic;
-    text-align: center;
+    text-align: left;
     background-color:coral ;
+    margin-top: 0px;
+
   }
 h1 {
   text-align: center;
@@ -28,8 +58,12 @@ h1 {
   
   p {
     color: rgb(38, 9, 54);
+    margin-top: 0px;
   }
   ol,
   ul {color:black;
   background-color: antiquewhite;
+  justify-items: left;
+  margin-top: 0px;
+  align-items:baseline;
 }
